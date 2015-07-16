@@ -1,6 +1,8 @@
 Let's make this file more... Sassy!
 ====================================
 
+<img src="https://mygymlessfitness.files.wordpress.com/2015/04/giphy-14.gif" alt="Sass" />
+
 0. Variables
 0. Nesting
 
@@ -45,4 +47,11 @@ Let's make this file more... Sassy!
 0. Comments
 0. Extend (inheritance)
 
+**We're done!**
+<img src="https://juliavanvalkenburg.files.wordpress.com/2015/06/post-28907-milkshake-scene-dancing-gif-al-w1lp.gif" alt="Happy dance" title="Happy dance" /> *
+
+
+
+
+* Orange is the New Black is cool, OK?
    
