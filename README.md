@@ -51,7 +51,7 @@ Let's make this file more... Sassy!
 
 <img src="https://juliavanvalkenburg.files.wordpress.com/2015/06/post-28907-milkshake-scene-dancing-gif-al-w1lp.gif" alt="Happy dance" title="Happy dance" /> *
 
-*\* Orange is the New Black is cool, OK?\*\**
+* \* Orange is the New Black is cool, OK?\*\* *
 
-*\*\* The GIFs and (lack of) colour scheme were explicitly added to make Ben feel at home.*
+* \*\* The GIFs and (lack of) colour scheme were explicitly added to make Ben feel at home. *
    
