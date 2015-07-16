@@ -1,0 +1,72 @@
+body {
+  background-color: #eee;
+  color: #1e1e1e;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+
+article {
+  background-color: #acacac;
+  width: 640px;
+  width: 40rem;
+  padding: 32px;
+  padding: 2rem;
+  text-align: center;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.5); }
+
+article h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 600; }
+
+article p {
+  /* No special styles yet, I'll come back to this */ }
+
+a {
+  text-decoration: none; }
+
+a.btn {
+  color: inherit;
+  font-family: 'Times New Roman', Times, serif;
+  display: inline-block;
+  background-color: #eee;
+  border: 1px solid #1e1e1e;
+  line-height: 32px;
+  line-height: 2rem;
+  padding: 0 8px;
+  padding: 0 0.5rem;
+  border-radius: 5px;
+  -moz-transition: all ease-in-out .25s;
+  -o-transition: all ease-in-out .25s;
+  -webkit-transition: all ease-in-out .25s;
+  transition: all ease-in-out .25s; }
+
+a.btn:hover {
+  color: #acacac;
+  background-color: #1e1e1e; }
+
+article:hover a.btn:after {
+  content: "!!!"; }
+
+footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #1e1e1e;
+  color: #eee;
+  line-height: 32px;
+  line-height: 2rem;
+  padding: 0 8px;
+  padding: 0 0.5rem; }
+
+/*# sourceMappingURL=app.css.map */

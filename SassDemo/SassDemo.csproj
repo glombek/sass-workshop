@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <ProjectGuid>{FB1655A3-0D9E-4D73-99C3-5256B9EE3953}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <OutputPath>bin</OutputPath>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <TypeScriptToolsVersion>1.0</TypeScriptToolsVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="content\styles\app.css">
+      <DependentUpon>app.scss</DependentUpon>
+    </Content>
+    <Content Include="index.html" />
+    <Content Include="web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="content\styles\app.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\addons\_border-color.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\addons\_border-radius.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\addons\_border-style.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\addons\_border-width.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\addons\_buttons.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\addons\_clearfix.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\addons\_ellipsis.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\addons\_font-stacks.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\addons\_hide-text.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\addons\_margin.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\addons\_padding.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\addons\_position.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\addons\_prefixer.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\addons\_retina-image.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\addons\_size.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\addons\_text-inputs.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\addons\_timing-functions.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\addons\_triangle.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\addons\_word-wrap.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\CONTRIBUTING.md" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\css3\.DS_Store" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\css3\_animation.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\css3\_appearance.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\css3\_backface-visibility.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\css3\_background-image.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\css3\_background.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\css3\_border-image.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\css3\_calc.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\css3\_columns.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\css3\_filter.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\css3\_flex-box.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\css3\_font-face.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\css3\_font-feature-settings.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\css3\_hidpi-media-query.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\css3\_hyphens.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\css3\_image-rendering.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\css3\_keyframes.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\css3\_linear-gradient.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\css3\_perspective.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\css3\_placeholder.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\css3\_radial-gradient.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\css3\_selection.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\css3\_text-decoration.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\css3\_transform.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\css3\_transition.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\css3\_user-select.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\functions\.DS_Store" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\functions\_assign-inputs.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\functions\_contains-falsy.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\functions\_contains.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\functions\_is-length.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\functions\_is-light.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\functions\_is-number.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\functions\_is-size.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\functions\_modular-scale.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\functions\_px-to-em.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\functions\_px-to-rem.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\functions\_shade.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\functions\_strip-units.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\functions\_tint.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\functions\_transition-property-name.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\functions\_unpack.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\helpers\.DS_Store" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\helpers\_convert-units.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\helpers\_directional-values.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\helpers\_font-source-declaration.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\helpers\_gradient-positions-parser.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\helpers\_linear-angle-parser.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\helpers\_linear-gradient-parser.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\helpers\_linear-positions-parser.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\helpers\_linear-side-corner-parser.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\helpers\_radial-arg-parser.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\helpers\_radial-gradient-parser.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\helpers\_radial-positions-parser.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\helpers\_render-gradients.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\helpers\_shape-size-stripper.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\helpers\_str-to-num.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\LICENSE.md" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\README.md" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\settings\_asset-pipeline.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\settings\_prefixer.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\settings\_px-to-em.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\_bourbon-deprecated-upcoming.scss" />
+    <Content Include="content\styles\vendor\bourbon-v4.2.3\_bourbon.scss" />
+    <None Include="web.Debug.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+    <None Include="web.Release.config">
+      <DependentUpon>web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>SassDemo</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\WebApplications\Microsoft.WebApplication.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\WebApplications\Microsoft.WebApplication.targets')" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50190</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:50190/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+    <TypeScriptRemoveComments>false</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>true</TypeScriptSourceMap>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <TypeScriptRemoveComments>true</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>false</TypeScriptSourceMap>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
+</Project>

@@ -1,0 +1,6 @@
+C:\Users\Joe\Documents\GitHub\sass-workshop\SassDemo\bin\SassDemo.dll.config
+C:\Users\Joe\Documents\GitHub\sass-workshop\SassDemo\bin\SassDemo.dll
+C:\Users\Joe\Documents\GitHub\sass-workshop\SassDemo\bin\SassDemo.pdb
+C:\Users\Joe\Documents\GitHub\sass-workshop\SassDemo\obj\Debug\SassDemo.csprojResolveAssemblyReference.cache
+C:\Users\Joe\Documents\GitHub\sass-workshop\SassDemo\obj\Debug\SassDemo.dll
+C:\Users\Joe\Documents\GitHub\sass-workshop\SassDemo\obj\Debug\SassDemo.pdb
